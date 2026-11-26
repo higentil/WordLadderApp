@@ -10,7 +10,7 @@ This Java program solves the **Word Ladder** puzzle: transforming a start word i
 2. **Finds the Shortest Path with BFS (`BfsHandler`)**
    **Breadth-First Search** checks all words 1 letter apart first, then 2 letters apart, expanding outward level by level using a **Queue**. Because it checks closest words first, BFS always finds the **shortest possible ladder**.
 
-3. **Explores Deep Paths with DFS (`DfszHandler`)**
+3. **Explores Deep Paths with DFS (`DfsHandler`)**
    **Depth-First Search** picks one neighboring word and follows that single path as deep as it can using a **Stack**, backtracking only when it hits a dead end. It finds a valid ladder, though usually with many more steps than BFS.
 
 4. **Compares Results (`Main`)**
